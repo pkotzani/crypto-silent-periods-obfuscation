@@ -1,0 +1,22 @@
+<configuration>
+  <input>
+    <net-file value="map.net.xml"/>
+    <route-files value="generated_traffic.rou.xml"/>
+  </input>
+
+  <processing>
+    <time-to-teleport value="-1"/>
+  </processing>
+
+  <time>
+    <begin value="0"/>
+    <end value="3600"/>
+    <step-length value="0.5"/>
+  </time>
+
+  <output>
+    <tripinfo-output value="outputs/tripinfo.xml"/>
+    <fcd-output value="outputs/fcd.xml"/>
+    <summary-output value="outputs/summary.xml"/>
+  </output>
+</configuration>
